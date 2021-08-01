@@ -139,11 +139,43 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Component\Animator.h" />
+    <ClInclude Include="Component\AudioSource.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="Host.h" />
+    <ClInclude Include="Component\Messenger.h" />
+    <ClInclude Include="Component\Physics.h" />
+    <ClInclude Include="Remote.h" />
+    <ClInclude Include="Server.h" />
+    <ClInclude Include="Component\SpriteRenderer.h" />
+    <ClInclude Include="Component\TileMap.h" />
+    <ClInclude Include="Framework\Application.h" />
+    <ClInclude Include="Framework\Audio.h" />
+    <ClInclude Include="Framework\Graphics.h" />
+    <ClInclude Include="Framework\Input.h" />
+    <ClInclude Include="Framework\Networks.h" />
+    <ClInclude Include="Framework\Time.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="Player.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Component\Animator.cpp" />
+    <ClCompile Include="Component\AudioSource.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="Host.cpp" />
+    <ClCompile Include="Component\Messenger.cpp" />
+    <ClCompile Include="Component\Physics.cpp" />
+    <ClCompile Include="Remote.cpp" />
+    <ClCompile Include="Server.cpp" />
+    <ClCompile Include="Component\SpriteRenderer.cpp" />
+    <ClCompile Include="Component\TileMap.cpp" />
+    <ClCompile Include="Framework\Application.cpp" />
+    <ClCompile Include="Framework\Audio.cpp" />
+    <ClCompile Include="Framework\Graphics.cpp" />
+    <ClCompile Include="Framework\Input.cpp" />
+    <ClCompile Include="Framework\Networks.cpp" />
+    <ClCompile Include="Framework\Time.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="Player.cpp" />
